@@ -20,21 +20,24 @@
 
 class Vehicle:
     pass
-class FlightVehicle:
-    pass
-class Starship:
-    pass
 
 class GroundVehicle(Vehicle):
     pass
+
 class Car(GroundVehicle):
     pass
+
 class Motorcycle(GroundVehicle):
+    pass
+
+class FlightVehicle(Vehicle):
+    pass
+
+class Starship(FlightVehicle):
     pass
 
 class Airplane(FlightVehicle):
     pass
 
-
-class test_starship(Starship):
-    pass
+# class test_starship(Starship):
+#     pass
